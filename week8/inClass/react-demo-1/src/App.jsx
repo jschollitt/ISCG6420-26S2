@@ -4,15 +4,27 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import MyComp from './MyComp'
-import Rectangle from './Rectangle'
+import MyButton from './MyButton'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <MyComp />
-      <Rectangle width={100} height={100} bgColour={"red"} />
+    <MyComp fname={""} lname={""} width={100} height={100} bgColour={"red"} />
+
+    {/* <MyComp width={400} height={100} bgColour={"red"} />
+    <MyComp width={200} height={200} bgColour={"green"} />
+    <MyComp width={1000} height={1000} bgColour={"yellow"} />
+    <h1>Hello World!</h1> */}
+
+    <MyButton />
+
+
+
+
+
+
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
