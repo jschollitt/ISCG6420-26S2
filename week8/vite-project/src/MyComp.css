@@ -1,0 +1,10 @@
+h2 {
+    color: blue;
+}
+
+button {
+    width: 175px;
+    height: 50px;
+    background-color: indigo;
+    color: white;
+}
